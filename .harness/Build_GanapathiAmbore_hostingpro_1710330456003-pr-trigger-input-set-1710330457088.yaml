@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_GanapathiAmbore_hostingpro_1710330456003-pr-trigger-input-set
+  identifier: Build_GanapathiAmbore_hostingpro_1710330456003prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_GanapathiAmbore_hostingpro_1710330456003
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
